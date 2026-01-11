@@ -1,0 +1,881 @@
+{
+
+  "categories": [
+
+    {
+
+      "id": "bond_energies",
+
+      "name": "Bond Energies",
+
+      "description": "Typical bond dissociation energies (kJ/mol). Values are approximate averages — actual values depend on molecular environment, hybridization, and substituents.",
+
+      "entries": [
+
+        {
+
+          "id": "c-h",
+
+          "title": "C–H bond",
+
+          "summary": "Typical C–H single bond energies (alkanes) and factors that change them.",
+
+          "body": "Bond dissociation energy (BDE) for a C–H single bond is an average measure of how much energy is required to homolytically cleave the bond (produce radicals). Typical values in simple alkanes fall around 410 kJ·mol⁻¹, but the exact value depends on hybridization (sp3 vs sp2 vs sp), substitution (primary vs tertiary), and stabilization of the radical formed.\n\nFactors that affect C–H BDE:\n• Hybridization: C(sp3)–H > C(sp2)–H > C(sp)–H in BDE magnitude (sp bonds often stronger). \n• Radical stability: If the radical formed is resonance stabilized (allylic, benzylic), the BDE is lower. \n• Inductive and hyperconjugative effects from neighboring groups change BDE slightly.\n\nExample values:\n• Methane (CH4): ≈ 435 kJ·mol⁻¹\n• Ethane (C2H6): ≈ 410 kJ·mol⁻¹\n• Tertiary C–H (in isobutane): lower than primary due to radical stabilization.\n\nUsage: BDEs are used in mechanistic organic chemistry to predict reaction pathways (e.g., which hydrogen is abstracted more easily in radical reactions)."
+
+        },
+
+        {
+
+          "id": "c-c",
+
+          "title": "C–C bonds: single, double, triple",
+
+          "summary": "Typical energies for single, double, and triple carbon–carbon bonds and how bonding order affects strength.",
+
+          "body": "C–C single, double, and triple bonds differ in bond order and therefore in strength and length. Higher bond order (double, triple) means more shared electron density and usually a shorter, stronger bond.\n\nTypical approximate BDEs:\n• C–C (single) ≈ 348 kJ·mol⁻¹\n• C=C (double) ≈ 614 kJ·mol⁻¹\n• C≡C (triple) ≈ 839 kJ·mol⁻¹\n\nNotes:\n• Double and triple bonds also change chemical reactivity: pi bonds (in double/triple) are more reactive to electrophiles. \n• Conjugation and resonance can lower the effective bond energy (e.g., allylic systems)."
+
+        },
+
+        {
+
+          "id": "c-o",
+
+          "title": "C–O and C=O bonds",
+
+          "summary": "Bond energies for carbon–oxygen single and double bonds with examples and implications for reactivity.",
+
+          "body": "C–O single bonds (as in alcohols and ethers) and C=O double bonds (as in carbonyls) have very different strengths and reactivities.\n\nTypical values:\n• C–O (single): ≈ 358 kJ·mol⁻¹\n• C=O (double, carbonyl): ≈ 743 kJ·mol⁻¹\n\nImplications:\n• Carbonyls (C=O) are polar and electrophilic at carbon — basis for nucleophilic addition reactions.\n• Resonance (as in amides) reduces the double-bond character of the C=O and changes BDE and reactivity (e.g., amide C=O is less reactive than ketone C=O).\n\nExample: esters and carboxylic acids involve resonance that distributes the C=O character, affecting hydrolysis rates."
+
+        },
+
+        {
+
+          "id": "n-h",
+
+          "title": "N–H bonds",
+
+          "summary": "Typical N–H bond energies and contexts (amines, amides, ammonia).",
+
+          "body": "N–H bond dissociation energies depend on the nitrogen environment. For simple amines and ammonia, typical BDEs are about 391 kJ·mol⁻¹. In aromatic systems (anilines) or when the resulting radical is resonance-stabilized, the BDE can be lower.\n\nApplications:\n• Predicting hydrogen abstraction reactions in radical chemistry.\n• Understanding acidity/basicity trends: while BDE is different from pKa, both reflect aspects of bond strength and stability of conjugate species."
+
+        },
+
+        {
+
+          "id": "o-h",
+
+          "title": "O–H bonds and hydrogen bonding",
+
+          "summary": "O–H bond energies and the strong role of hydrogen bonding in altering apparent strengths and IR bands.",
+
+          "body": "O–H BDE in simple molecules (water, alcohols) is around 460 kJ·mol⁻¹. Hydrogen bonding strongly affects physical properties and observed IR stretching frequencies (broadening and shifting). In phenols, resonance stabilization of the phenoxide anion lowers the O–H bond strength relative to aliphatic alcohols, which correlates with their greater acidity (lower pKa).\n\nNotes:\n• Hydrogen bonding increases bond length slightly and lowers O–H stretching frequency in IR.\n• BDE is used in radical chemistry; phenolic O–H is easier to homolytically cleave than aliphatic O–H due to resonance stabilization of the phenoxy radical."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "id": "solubility",
+
+      "name": "Solubility Rules",
+
+      "description": "Practical solubility heuristics for predicting aqueous solubility of ionic compounds. These are rules of thumb — exceptions exist.",
+
+      "entries": [
+
+        {
+
+          "id": "solubility-basic",
+
+          "title": "Basic solubility rules (expanded)",
+
+          "summary": "Core guidelines for predicting if a salt dissolves in water and why.",
+
+          "body": "General principles:\n1. Salts of alkali metals (Li+, Na+, K+, Cs+, Rb+) and ammonium (NH4+) are soluble because their lattice energies are easily overcome by hydration energy.\n2. Nitrates (NO3−), acetates (CH3COO−), and perchlorates (ClO4−) are generally soluble across cations because these anions are delocalized and form stable ion-dipole interactions with water.\n3. Halides (Cl−, Br−, I−) are typically soluble, but form insoluble precipitates with Ag+, Pb2+ and Hg2+ due to low solubility products (Ksp).\n4. Sulfates (SO4 2−) are soluble with many cations but form insoluble salts with Ba2+, Pb2+, Sr2+, and in many cases Ca2+ (CaSO4 is only sparingly soluble).\n5. Carbonates (CO3 2−), phosphates (PO4 3−), sulfides (S2−), and hydroxides (OH−) are generally insoluble except when paired with Group 1 cations or NH4+.\n\nWhy these patterns arise:\n• Solubility is determined by the balance of lattice energy (energy holding solid together) and solvation (hydration) energy. Small highly charged ions have large lattice energies and often form insoluble salts unless hydration compensates.\n• Complex ions, resonance-stabilized anions, and ions that distribute charge broadly are easier to solvate and therefore more soluble.\n\nPractical tip: Use these rules to predict precipitation reactions and to choose reagents for qualitative inorganic analysis."
+
+        },
+
+        {
+
+          "id": "halide_exceptions",
+
+          "title": "Halide exceptions and common precipitates",
+
+          "summary": "Which halide salts are poorly soluble and experimental notes.",
+
+          "body": "Common insoluble or sparingly soluble halides:\n• Silver halides: AgCl (white), AgBr (cream), AgI (yellow). These are photosensitive — exposure to light reduces Ag+ to metallic silver, darkening the solid.\n• Lead(II) halides: PbCl2 is sparingly soluble in cold water but more soluble in hot water; PbBr2 and PbI2 are less soluble.\n• Mercury(I) chloride (Hg2Cl2) is poorly soluble.\n\nExperimental notes:\n• Formation of a white precipitate upon addition of AgNO3 is a classic test for chloride; adding NH3 can dissolve AgCl (forming [Ag(NH3)2]+) but not AgBr or AgI (except in concentrated NH3 for AgBr)."
+
+        },
+
+        {
+
+          "id": "sulfate_exceptions",
+
+          "title": "Sulfate exceptions and their uses",
+
+          "summary": "Sulfates that are insoluble and how that property is exploited.",
+
+          "body": "Insoluble sulfates include BaSO4, PbSO4, and SrSO4. Barium sulfate's extreme insolubility is exploited in qualitative tests for sulfate (add BaCl2 to sulfate-containing solution → white precipitate) and in medicine as a radiocontrast agent for imaging the gastrointestinal tract because BaSO4 is opaque to X-rays and non-toxic when insoluble.\n\nNotes on CaSO4: moderately soluble but often considered sparingly soluble for many calculations; solubility increases with temperature depending on the salt."
+
+        },
+
+        {
+
+          "id": "hydroxides",
+
+          "title": "Hydroxide solubility and basicity",
+
+          "summary": "Why metal hydroxides differ in solubility and relation to base strength.",
+
+          "body": "Hydroxide solubility trends:\n• Group 1 hydroxides (LiOH, NaOH, KOH) are soluble and form strong bases in water.\n• Alkaline earth hydroxides: Be(OH)2 is amphoteric and sparingly soluble; Mg(OH)2 is quite insoluble; Ca(OH)2 is moderately soluble (slightly soluble but enough to form a strong base solution), Sr(OH)2 and Ba(OH)2 are more soluble and strong bases when dissolved.\n\nRelation to basicity:\n• Solubility affects whether a metal hydroxide behaves as a strong base in aqueous solution — only soluble hydroxides produce high OH− concentrations.\n• Insoluble hydroxides can act as bases in heterogeneous systems but do not significantly change [OH−] in bulk solution."
+
+        },
+
+        {
+
+          "id": "sulfide_solubility",
+
+          "title": "Sulfide solubility and pH dependence",
+
+          "summary": "Sulfide solubility varies with pH and forms soluble species in acidic/basic media.",
+
+          "body": "Transition metal sulfides (e.g., FeS, CuS, PbS) are often insoluble as neutral S2− salts because S2− is a very strong base and forms solids. However, sulfide chemistry is pH-dependent:\n• In acidic solutions, S2− is protonated to H2S (gas) or HS−, increasing apparent solubility or leading to release of H2S gas.\n• In strongly basic solutions, metal–sulfide complexes may form that are more soluble.\n\nLaboratory note: Precipitation of metal sulfides is often used for qualitative group analysis in classical inorganic analysis schemes."
+
+        },
+
+        {
+
+          "id": "carbonate_phosphate",
+
+          "title": "Carbonate and phosphate solubility and environmental relevance",
+
+          "summary": "Why carbonates and phosphates are commonly insoluble and their roles in geochemistry and biology.",
+
+          "body": "Carbonates (CO3 2−) and phosphates (PO4 3−) form insoluble salts with many divalent or trivalent cations (e.g., CaCO3, Ca3(PO4)2). This underpins geological processes (formation of limestone, scale) and biological mineralization (bone and teeth formation uses calcium phosphate).\n\npH effect:\n• At lower pH, carbonates convert to bicarbonate (HCO3−) and CO2, which are more soluble, explaining increased carbonate solubility in acidic conditions (e.g., acid rain dissolves limestone).\n• Phosphate speciation depends on pH (H3PO4, H2PO4−, HPO4 2−, PO4 3−) and solubility varies accordingly."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "id": "pka_values",
+
+      "name": "pKa Values",
+
+      "description": "Representative pKa values for common functional groups and acids. Values are approximate (25°C, aqueous) and intended for estimation and teaching.",
+
+      "entries": [
+
+        {
+
+          "id": "acetic_acid",
+
+          "title": "Acetic acid (CH3COOH)",
+
+          "summary": "pKa of acetic acid and context for buffer calculations.",
+
+          "body": "Acetic acid is a common weak acid with pKa ≈ 4.76 at 25°C. Because acetate/ acetic acid has a pKa in the biological/analytical window, it is commonly used in buffer systems (e.g., acetate buffer for pH ~4–6).\n\nHenderson–Hasselbalch application:\n• pH = pKa + log([A−]/[HA]).\n• At half-equivalence in a titration of acetic acid with strong base, pH ≈ pKa (about 4.76).\n\nPractical note: Temperature and ionic strength slightly shift pKa values; for precise work, consult tabulated data for the chosen conditions."
+
+        },
+
+        {
+
+          "id": "formic_acid",
+
+          "title": "Formic acid (HCOOH)",
+
+          "summary": "Stronger than acetic acid; used in some reactions and as calibration acid.",
+
+          "body": "Formic acid has pKa ≈ 3.75. It is stronger than acetic acid because the conjugate base (formate) is stabilized by resonance and the smaller alkyl group contributes less electron-donating inductive effect.\n\nApplications: formic acid is used in dyeing and as a reducing agent in some organic synthesis procedures."
+
+        },
+
+        {
+
+          "id": "hydrochloric_acid",
+
+          "title": "Hydrochloric acid (HCl)",
+
+          "summary": "Strong mineral acid — effectively fully dissociated in water.",
+
+          "body": "HCl is a strong acid in aqueous solution; its conjugate acid pKa (if considered) is around −7, indicating essentially complete dissociation in water. In titrations and stoichiometric calculations, treat strong acids (HCl, HNO3, H2SO4 first proton) as fully dissociated for typical concentrations.\n\nSafety: concentrated HCl is corrosive and releases HCl fumes; use appropriate ventilation and PPE."
+
+        },
+
+        {
+
+          "id": "sulfuric_acid_first",
+
+          "title": "Sulfuric acid (H2SO4) — dissociation steps",
+
+          "summary": "First proton is strong; second proton has a measurable pKa.",
+
+          "body": "Sulfuric acid is diprotic with two dissociation steps:\n• H2SO4 ⇌ H+ + HSO4−  (first dissociation is essentially complete in water; treat as strong)\n• HSO4− ⇌ H+ + SO4 2− (pKa2 ≈ 1.99)\n\nImplication: Concentrated sulfuric acid is both a strong acid and a powerful dehydrating agent; treat with extreme caution. In calculations, H2SO4 is often treated as contributing two equivalents of H+ only in very strong conditions; for typical titration math treat the second dissociation with its pKa as needed."
+
+        },
+
+        {
+
+          "id": "phenol",
+
+          "title": "Phenol acidity",
+
+          "summary": "Phenol is significantly more acidic than aliphatic alcohols due to resonance stabilization of the phenoxide anion.",
+
+          "body": "Phenol has pKa ≈ 10.0. The phenoxide ion is resonance-stabilized across the aromatic ring, lowering the energy of the conjugate base and increasing acidity relative to typical alcohols (pKa ≈ 16–18).\n\nPractical note: Phenol reacts with strong bases (NaOH) to give soluble phenoxide salts but does not react with weaker bases like NaHCO3."
+
+        },
+
+        {
+
+          "id": "ammonium",
+
+          "title": "Ammonium / Ammonia (NH4+ / NH3)",
+
+          "summary": "pKa for ammonium and implications for acid–base behavior of ammonia.",
+
+          "body": "The pKa of the ammonium ion (NH4+) is about 9.25 at 25°C. This means ammonia (NH3) is a weak base; in water, NH3 + H2O ⇌ NH4+ + OH− and the equilibrium favors the left at neutral pH. Ammonia is commonly used as a weak base for buffered solutions and precipitation reactions (e.g., formation of metal ammine complexes)."
+
+        },
+
+        {
+
+          "id": "carboxylic_general",
+
+          "title": "General carboxylic acid pKa range",
+
+          "summary": "Typical acidity of simple carboxylic acids and factors affecting pKa.",
+
+          "body": "Most simple aliphatic carboxylic acids (e.g., acetic, propionic) have pKa values in the range 3–5. Electron-withdrawing substituents (e.g., halogens) lower pKa (stronger acids) while electron-donating groups raise pKa (weaker acids). Resonance and inductive effects are the main contributors.\n\nExample trends:\n• Trifluoroacetic acid (CF3COOH) is much stronger (pKa ≈ 0.23) due to strong electron-withdrawing effect of CF3.\n• Benzoic acid has pKa ≈ 4.20; substituents on the ring shift this value predictably."
+
+        },
+
+        {
+
+          "id": "alcohol",
+
+          "title": "Alcohol acidity (typical)",
+
+          "summary": "Alcohols are weak acids; compare with phenols and carboxylic acids.",
+
+          "body": "Simple alcohols like methanol and ethanol have pKa values around 16–18, making them much weaker acids than carboxylic acids and phenols. Deprotonation requires strong bases (e.g., organolithium reagents, sodium amide).\n\nPractical implication: Alcohols do not typically act as acids in aqueous acid–base equilibria relevant to biological systems but can be deprotonated under strongly basic, non-aqueous conditions for synthetic transformations."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "id": "physical_constants",
+
+      "name": "Physical Constants",
+
+      "description": "Important physical constants and standard reference values used in calculations.",
+
+      "entries": [
+
+        {
+
+          "id": "avogadro",
+
+          "title": "Avogadro's number (NA)",
+
+          "summary": "Exact number of constituent particles per mole in the SI system.",
+
+          "body": "Avogadro's number NA = 6.02214076 × 10^23 mol⁻¹ (exact by definition of the mole). Use NA to convert between number of particles (atoms, molecules) and amount of substance in moles.\n\nExample: 2.0 mol of water molecules contains 2.0 × NA molecules ≈ 1.20428 × 10^24 molecules."
+
+        },
+
+        {
+
+          "id": "gas_constant",
+
+          "title": "Universal gas constant (R)",
+
+          "summary": "Multiple commonly used units for the gas constant.",
+
+          "body": "R = 8.31446261815324 J·mol⁻¹·K⁻¹ = 0.082057366 L·atm·mol⁻¹·K⁻¹ = 62.36367 L·Torr·mol⁻¹·K⁻¹ (approx). Use the unit form consistent with your pressure and energy units when applying PV = nRT.\n\nExample: Calculate pressure in atm for 1.0 mol ideal gas at 273.15 K in 22.414 L (old STP): P = nRT/V."
+
+        },
+
+        {
+
+          "id": "faraday",
+
+          "title": "Faraday constant (F)",
+
+          "summary": "Charge per mole of electrons; used in electrochemistry calculations.",
+
+          "body": "Faraday constant F ≈ 96485.33212 C·mol⁻¹. It converts between moles of electrons and coulombs of charge.\n\nExample use: To deposit one mole of metal M^n+ in electrolysis that requires n electrons per ion, the total charge required is n × F coulombs."
+
+        },
+
+        {
+
+          "id": "boltzmann",
+
+          "title": "Boltzmann constant (kB)",
+
+          "summary": "Relates thermal energy to temperature on a per-particle basis.",
+
+          "body": "kB = 1.380649 × 10^−23 J·K⁻¹. It appears in the Maxwell–Boltzmann distribution, Boltzmann factor exp(−ΔE/kBT), and relates macroscopic temperature to molecular energy scales.\n\nPractical note: kB × NA = R (gas constant), linking molar and molecular scales."
+
+        },
+
+        {
+
+          "id": "standard_temperature_pressure",
+
+          "title": "STP definitions and molar volumes",
+
+          "summary": "Different STP conventions and the molar volume of an ideal gas.",
+
+          "body": "There are two commonly encountered STP conventions:\n• IUPAC (since 1982): T = 0°C (273.15 K), P = 100 kPa (100000 Pa). Molar volume ≈ 22.71098 L·mol⁻¹.\n• Older convention: T = 0°C, P = 1 atm (101.325 kPa), molar volume ≈ 22.414 L·mol⁻¹.\n\nWhen performing stoichiometric gas calculations, specify which STP convention you are using, or use PV = nRT directly."
+
+        },
+
+        {
+
+          "id": "water_density",
+
+          "title": "Density of water (standard conditions)",
+
+          "summary": "Density near room temperature and its use in conversions.",
+
+          "body": "At 25°C, pure water density ≈ 0.99705 g·cm⁻³ (commonly approximated as 1.00 g·cm⁻³ for many calculations). Temperature affects density: maximum density (~1.000 g·cm⁻³) occurs near 4°C.\n\nUse density to convert between mass and volume for aqueous solutions (mass (g) = density (g·mL⁻¹) × volume (mL))."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "id": "common_reactions",
+
+      "name": "Common Reactions & Mechanisms",
+
+      "description": "Frequently encountered reaction templates, balanced examples, and mechanistic notes.",
+
+      "entries": [
+
+        {
+
+          "id": "combustion_alkane",
+
+          "title": "Complete combustion of alkanes",
+
+          "summary": "Stoichiometry and example for complete combustion producing CO2 and H2O.",
+
+          "body": "General formula for complete combustion of an alkane (CnH2n+2):\nCnH2n+2 + (3n+1)/2 O2 → n CO2 + (n+1) H2O\n\nExample (methane): CH4 + 2 O2 → CO2 + 2 H2O (balanced).\n\nNotes:\n• Incomplete combustion (limited oxygen) can produce CO and soot (C), which are hazardous.\n• Combustion enthalpies are large and negative (exothermic) — used in calorimetry and fuel calculations."
+
+        },
+
+        {
+
+          "id": "acid_base_neutralization",
+
+          "title": "Acid–base neutralization reactions",
+
+          "summary": "Strong acid + strong base → salt + water; stoichiometry used in titrations.",
+
+          "body": "Example: HCl + NaOH → NaCl + H2O. In titrations of monoprotic strong acid with monoprotic strong base, moles of acid = moles of base at equivalence.\n\nFor weak acids/bases, buffer regions and pKa/pKb matter; the equivalence point pH is not 7 if one reagent is weak.\n\nPractical calculation tip: Use molarity×volume (M·V) to convert between moles and laboratory volumes: moles = M × V (in liters)."
+
+        },
+
+        {
+
+          "id": "esterification",
+
+          "title": "Fischer esterification (acid-catalyzed ester formation)",
+
+          "summary": "Carboxylic acid + alcohol ⇌ ester + water (equilibrium).",
+
+          "body": "Mechanism outline (acid-catalyzed):\n1. Protonate carbonyl oxygen to increase electrophilicity.\n2. Nucleophilic attack by alcohol on the carbonyl carbon forming a tetrahedral intermediate.\n3. Proton transfers and elimination of water produce the ester; deprotonation yields the neutral product.\n\nImportant practical points:\n• Reaction is reversible — removal of water or using excess alcohol shifts equilibrium to product (Le Chatelier's principle).\n• Strong acid catalysts like H2SO4 are commonly used; molecular sieves or Dean–Stark apparatus help remove water."
+
+        },
+
+        {
+
+          "id": "saponification",
+
+          "title": "Saponification (base-catalyzed hydrolysis of esters)",
+
+          "summary": "Conversion of esters into carboxylate salts and alcohols under basic conditions; irreversible in many contexts.",
+
+          "body": "General reaction: RCOOR' + OH− → RCOO− + R'OH.\n\nApplication: Conversion of triglycerides (fats/oils) with NaOH (or KOH) to produce soap (sodium/potassium salts of fatty acids) and glycerol. The reaction is often driven to completion under strong basic conditions; the carboxylate salt is water-soluble, facilitating separation."
+
+        },
+
+        {
+
+          "id": "single_displacement",
+
+          "title": "Single displacement reactions and activity series",
+
+          "summary": "A metal can displace a less reactive metal from its salt; use activity series to predict outcomes.",
+
+          "body": "General form: A + BC → AC + B, where A is more reactive than B.\n\nExample: Zn + CuSO4 → ZnSO4 + Cu (zinc displaces copper). The reactivity (activity) series orders metals by tendency to be oxidized; more active metals displace less active ones from solution.\n\nNote: Reactions in aqueous media also depend on complexation and solubility of products."
+
+        },
+
+        {
+
+          "id": "redox_overview",
+
+          "title": "Redox reactions: identifying oxidation states and balancing",
+
+          "summary": "How to assign oxidation numbers and balance redox reactions using half-reactions.",
+
+          "body": "Steps to analyze a redox reaction:\n1. Assign oxidation states to all atoms in reactants and products.\n2. Identify atoms whose oxidation states change (oxidation vs reduction).\n3. Separate into half-reactions, balance each for mass and charge (add H2O, H+, OH− as appropriate for acidic/basic media), and then combine by equalizing electrons.\n\nApplications include electrochemistry (calculating cell potentials) and stoichiometry for reactions involving electron transfer."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "id": "spectroscopy",
+
+      "name": "Spectroscopy & Analytical",
+
+      "description": "Practical spectral ranges and the interpretation of common signals used in structure determination and quantitative analysis.",
+
+      "entries": [
+
+        {
+
+          "id": "ir_overview",
+
+          "title": "Infrared (IR) spectroscopy — functional group identification",
+
+          "summary": "Key IR absorptions and diagnostic bands for organic functional groups.",
+
+          "body": "IR measures molecular vibrations; characteristic functional groups absorb at typical wavenumbers (cm⁻¹). Important regions:\n• O–H (broad): 3200–3600 cm⁻¹ (alcohols and acids; acids broader)\n• N–H (sharp or broad): 3300–3500 cm⁻¹ (primary amines show two N–H stretches)\n• C–H (sp3): 2850–2960 cm⁻¹; (sp2) slightly higher; (sp) near 3300 cm⁻¹ for terminal alkynes\n• C=O (strong): 1650–1750 cm⁻¹ (carbonyls; exact position depends on conjugation and hydrogen bonding)\n• C≡C and C≡N: 2100–2260 cm⁻¹\n\nPractical points:\n• Conjugation typically lowers the C=O stretching frequency.\n• Hydrogen bonding broadens and shifts O–H stretches.\n• IR is excellent for confirming presence/absence of functional groups but less definitive for complete structure."
+
+        },
+
+        {
+
+          "id": "nmr_1h",
+
+          "title": "Proton (¹H) NMR chemical shift guidelines",
+
+          "summary": "Typical chemical shift ranges and what influences them.",
+
+          "body": "¹H NMR chemical shift depends on electronic environment; typical ranges (ppm):\n• Alkane H: 0.5–1.5 ppm\n• Allylic H (adjacent to double bond): 1.6–2.6 ppm\n• H α to electronegative atom (e.g., CH2–O): 3.0–4.5 ppm\n• Aromatic H: 6.5–8.5 ppm\n• Aldehyde H: 9–10 ppm\n• Carboxylic acid H: 10–12 ppm (often broad due to exchange)\n\nOther factors:\n• Splitting patterns (n+1 rule) indicate number of adjacent equivalent protons.\n• Integration gives relative number of protons in each environment.\n• Coupling constants (J values) provide geometry information (e.g., trans vs cis in alkenes)."
+
+        },
+
+        {
+
+          "id": "nmr_13c",
+
+          "title": "Carbon (¹³C) NMR overview",
+
+          "summary": "Rough chemical shift ranges for types of carbon atoms and their interpretations.",
+
+          "body": "¹³C NMR chemical shifts (ppm):\n• Alkane carbon: 0–50 ppm\n• Carbon bonded to electronegative atoms (C–O, C–N): 50–90 ppm\n• Alkyne and aromatic/alkene carbons: 90–160 ppm\n• Carbonyl carbons: 160–220 ppm (esters, acids, amides, aldehydes, ketones)\n\nNotes:\n• ¹³C spectra are often recorded with broadband proton decoupling — signals appear as singlets, simplifying interpretation.\n• DEPT experiments help distinguish CH, CH2, CH3 and quaternary carbons."
+
+        },
+
+        {
+
+          "id": "uv_vis",
+
+          "title": "UV–Vis spectroscopy and Beer–Lambert law",
+
+          "summary": "Electronic transitions, conjugation effects, and quantitative absorbance measurements.",
+
+          "body": "UV–Vis measures electronic transitions (σ→σ*, n→σ*, π→π*, n→π*). Conjugation lowers the energy gap between HOMO and LUMO, shifting absorbance to longer wavelengths (bathochromic shift).\n\nBeer–Lambert law for quantitation: A = ε·b·c where\n• A = absorbance (unitless),\n• ε = molar absorptivity (L·mol⁻¹·cm⁻¹),\n• b = pathlength (cm),\n• c = concentration (mol·L⁻¹).\n\nPractical use: create calibration curves of known concentrations to determine unknown sample concentration from measured absorbance."
+
+        },
+
+        {
+
+          "id": "mass_spec",
+
+          "title": "Mass spectrometry basics",
+
+          "summary": "Molecular ion peaks, fragmentation patterns, and isotopic signatures.",
+
+          "body": "Mass spectrometry ionizes molecules and measures mass-to-charge ratio (m/z). Key points:\n• Molecular ion (M⁺·) approximates molecular weight (may be weak or absent if the molecule fragments easily).\n• Fragmentation patterns depend on stability of resulting cations and radicals; common fragments provide structural clues.\n• Isotope patterns: Cl (35/37) shows ~3:1 ratio; Br (79/81) shows ~1:1 ratio — useful for identifying presence of these halogens.\n\nApplications: identification of molecular mass, confirmation of molecular formula (with high-resolution MS), and structural elucidation through fragmentation."
+
+        },
+
+        {
+
+          "id": "titration_curve",
+
+          "title": "Titration curves and equivalence points",
+
+          "summary": "Interpreting titration curves for strong/weak acid-base systems and the concept of half-equivalence point.",
+
+          "body": "Key concepts:\n• Equivalence point: moles of titrant added equal moles of analyte in stoichiometric proportion. The pH at equivalence depends on strengths of acid and base.\n• Half-equivalence point (for weak acid titration with strong base): pH = pKa — useful for estimating pKa experimentally.\n• Buffer region: before equivalence in weak acid titration where solution resists pH change.\n\nPractical note: choose an indicator whose pH transition range overlaps the steep part of the titration curve (around equivalence) for visible endpoint detection."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "id": "lab_safety",
+
+      "name": "Lab Safety & Handling",
+
+      "description": "Guidelines for safe handling, storage, and first-response actions for common laboratory hazards.",
+
+      "entries": [
+
+        {
+
+          "id": "msds_basics",
+
+          "title": "SDS / MSDS essentials",
+
+          "summary": "How to read and use a Safety Data Sheet effectively.",
+
+          "body": "A Safety Data Sheet (SDS), formerly MSDS, contains critical information about chemicals. Important sections to consult:\n1. Identification — product name, manufacturer, recommended uses.\n2. Hazard(s) identification — pictograms, signal words, hazard statements.\n3. Composition/information on ingredients — chemical identity and concentrations.\n4. First-aid measures — immediate response steps for exposures.\n5. Fire-fighting measures — suitable extinguishers and hazards when burning.\n6. Accidental release measures — containment and cleanup procedures.\n7. Handling and storage — incompatibilities, storage conditions.\n8. Exposure controls / personal protection — recommended PPE and exposure limits.\n9. Physical and chemical properties — boiling point, flash point, vapor pressure.\n10. Stability and reactivity — decomposition hazards and incompatible materials.\n11. Toxicological information — routes of exposure and symptoms.\n\nAlways consult the SDS before using unfamiliar chemicals and keep copies in the lab and digitally accessible."
+
+        },
+
+        {
+
+          "id": "acids_bases_handling",
+
+          "title": "Handling strong acids and bases",
+
+          "summary": "Practical safety and neutralization tips for corrosive reagents.",
+
+          "body": "Best practices for corrosive reagents:\n• Always wear appropriate PPE: chemical-resistant gloves, goggles/face shield, lab coat, closed-toe shoes.\n• When diluting acids, add acid to water slowly (never water to acid) to avoid exothermic splattering.\n• Store acids and bases separately in compatible, labeled containers and in secondary containment.\n• Neutralize small spills with appropriate neutralizing agents (e.g., sodium bicarbonate for acids, acetic acid for bases) and follow institutional waste disposal rules.\n\nEmergency: For skin contact, flush with copious water for at least 15 minutes and remove contaminated clothing; seek medical attention for significant exposures."
+
+        },
+
+        {
+
+          "id": "flammables",
+
+          "title": "Flammable liquids — storage and use",
+
+          "summary": "How to store and work with volatile organic solvents safely.",
+
+          "body": "Flammable liquids should be stored in approved flammable storage cabinets away from ignition sources. Use a fume hood for handling volatile or low-boiling solvents. Ensure grounding and bonding when transferring flammable liquids between containers to prevent static discharge.\n\nImportant: keep a clean workspace, use spill trays, and never pipette by mouth. Be aware of flash points and autoignition temperatures for solvents you use."
+
+        },
+
+        {
+
+          "id": "waste_disposal",
+
+          "title": "Chemical waste segregation and labeling",
+
+          "summary": "Principles for safe and compliant chemical waste handling in laboratories.",
+
+          "body": "Segregate chemical waste by compatibility (e.g., acids separate from bases; oxidizers separate from organics). Label waste containers with contents, hazards, date, and generator information. Use appropriate secondary containment and closed containers where possible. Follow institutional hazardous waste collection schedules and never pour hazardous organics or heavy metals down the drain.\n\nRegulatory note: Some wastes require special handling (e.g., mercury, cyanide, halogenated organics). Consult your institution's environmental health and safety (EHS) office."
+
+        },
+
+        {
+
+          "id": "first_aid",
+
+          "title": "First aid for common lab injuries",
+
+          "summary": "Immediate response steps for eye, skin, inhalation, and ingestion exposures.",
+
+          "body": "Eye exposure: Immediately flush eyes at eyewash station with plenty of water for at least 15 minutes; hold eyelids open; seek urgent medical help.\n\nSkin exposure: Remove contaminated clothing and rinse affected area with copious water for at least 15 minutes; consult medical personnel if burns or irritation occur.\n\nInhalation: Move the person to fresh air immediately; if breathing is difficult, call emergency services.\n\nIngestion: Do not induce vomiting unless instructed by medical personnel or poison control; seek emergency assistance.\n\nAlways have emergency numbers and the nearest SDS accessible in the lab."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "id": "nomenclature",
+
+      "name": "Nomenclature & Naming Rules",
+
+      "description": "IUPAC-based basic naming rules for common organic and inorganic classes. These are starter rules — consult IUPAC recommendations for complex cases.",
+
+      "entries": [
+
+        {
+
+          "id": "alkane_naming",
+
+          "title": "Alkane nomenclature (systematic naming)",
+
+          "summary": "Steps to name alkanes including substituted chains and branching.",
+
+          "body": "Rules for naming alkanes:\n1. Identify the longest continuous carbon chain — this gives the base name (meth-, eth-, prop-, but-, pent-, etc.).\n2. Number the chain from the end giving substituents the lowest set of locants.\n3. Name substituents (methyl, ethyl, propyl, etc.) and list them alphabetically in the name (ignore di-, tri- for ordering).\n4. Use prefixes di-, tri-, tetra- when multiple identical substituents exist and include locants (e.g., 2,3-dimethylbutane).\n\nExample: 2-methylbutane: longest chain butane, methyl substituent at carbon 2."
+
+        },
+
+        {
+
+          "id": "alcohols",
+
+          "title": "Alcohol naming and numbering",
+
+          "summary": "Naming primary, secondary, tertiary alcohols and position numbering.",
+
+          "body": "To name alcohols:\n1. Choose the longest chain containing the –OH group as parent.\n2. Replace the terminal -e with -ol (e.g., ethanol) and number the carbon bearing OH to give the lowest possible locant (e.g., butan-2-ol).\n3. If multiple functional groups are present, follow IUPAC priority rules for suffix vs prefix.\n\nExamples:\n• Ethanol (CH3CH2OH)\n• 2-Propanol (isopropanol): CH3CHOHCH3"
+
+        },
+
+        {
+
+          "id": "carboxylic_acid_naming",
+
+          "title": "Carboxylic acid naming",
+
+          "summary": "Suffix -oic acid and naming common carboxylic acids.",
+
+          "body": "Carboxylic acids replace -e with -oic acid on the parent hydrocarbon chain (e.g., ethanoic acid for acetic acid). The carbonyl carbon is carbon-1 for numbering. When higher-priority functional groups are present, naming can become complex and follow IUPAC priority rules.\n\nExamples:\n• Methanoic acid (formic acid).\n• Ethanoic acid (acetic acid)."
+
+        },
+
+        {
+
+          "id": "ionic_compounds",
+
+          "title": "Naming ionic compounds and oxidation states",
+
+          "summary": "Cation-first convention and the use of Roman numerals for variable oxidation states.",
+
+          "body": "Naming rules for inorganic ionic compounds:\n• Name the cation (metal or ammonium) first, then the anion.\n• For metals with variable oxidation states (transition metals), indicate the oxidation state in Roman numerals in parentheses (e.g., FeCl2 = iron(II) chloride, FeCl3 = iron(III) chloride).\n• For simple anions add -ide (e.g., chloride, oxide). For polyatomic ions, use standard names (e.g., sulfate, nitrate).\n\nExamples:\n• NaCl → sodium chloride\n• CuSO4 → copper(II) sulfate"
+
+        },
+
+        {
+
+          "id": "polyatomic_ions",
+
+          "title": "Common polyatomic ion names and formulas",
+
+          "summary": "A short reference list of frequent polyatomic ions used in naming and balancing.",
+
+          "body": "Common ions:\n• NO3−: nitrate\n• NO2−: nitrite\n• SO4 2−: sulfate\n• SO3 2−: sulfite\n• CO3 2−: carbonate\n• HCO3−: bicarbonate (hydrogen carbonate)\n• PO4 3−: phosphate\n• NH4+: ammonium\n• OH−: hydroxide\n\nPractical tip: Recognize patterns — the -ate form usually has one more oxygen than -ite (e.g., sulfate vs sulfite). Prefixes per- and hypo- indicate more or fewer oxygens for halogen oxyanions (e.g., ClO4− perchlorate, ClO− hypochlorite)."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "id": "stoichiometry_tips",
+
+      "name": "Stoichiometry & Calculations",
+
+      "description": "Worked tips and common formulas for stoichiometry and related laboratory calculations.",
+
+      "entries": [
+
+        {
+
+          "id": "molar_mass",
+
+          "title": "Calculating molar mass from a chemical formula",
+
+          "summary": "Step-by-step approach to compute molar mass using atomic masses.",
+
+          "body": "Steps:\n1. Parse the chemical formula and count atoms of each element.\n2. Look up standard atomic masses (from the periodic table dataset) for each element.\n3. Multiply each atomic mass by the number of atoms and sum to get molar mass (g·mol⁻¹).\n\nExample: H2SO4 → 2×(H) + 32.06 (S) + 4×16.00 (O) = 98.08 g·mol⁻¹ (approx).\n\nPractical note: Keep consistent significant figures depending on your input atomic masses and the precision required."
+
+        },
+
+        {
+
+          "id": "limiting_reagent",
+
+          "title": "Identifying the limiting reagent",
+
+          "summary": "Algorithm to find which reactant limits product formation in a reaction.",
+
+          "body": "Procedure:\n1. Convert masses or volumes of reactants to moles.\n2. Divide moles of each reactant by its stoichiometric coefficient from the balanced equation.\n3. The smallest quotient indicates the limiting reagent.\n4. Use moles of limiting reagent and stoichiometry to calculate theoretical yield of desired product.\n\nExample: For A + 2B → C, if you have 1.0 mol A and 1.0 mol B, convert: A: 1.0/1 = 1.0; B: 1.0/2 = 0.5 → B is limiting; theoretical yield based on 0.5 mol C."
+
+        },
+
+        {
+
+          "id": "percent_yield",
+
+          "title": "Percent yield — experimental vs theoretical",
+
+          "summary": "How to compute percent yield and common causes for low yields.",
+
+          "body": "Percent yield = (actual yield / theoretical yield) × 100%.\n\nCommon reasons for low yield:\n• Incomplete reactions or equilibrium limitations.\n• Losses during transfer, purification, or isolation (filtration, evaporation).\n• Side reactions producing by-products.\n\nLab tip: Run mass balances and track losses during procedures to identify major contributors to low yields."
+
+        },
+
+        {
+
+          "id": "gas_laws",
+
+          "title": "Ideal gas law and combined gas law",
+
+          "summary": "Using PV = nRT and combined relationships for pressure, volume, and temperature changes.",
+
+          "body": "Ideal gas law: PV = nRT, where P = pressure, V = volume, n = moles, R = gas constant, T = temperature (K).\n\nCombined gas law for fixed moles: P1V1/T1 = P2V2/T2. Useful to compute new state variables when other quantities change.\n\nMolar volume at standard conditions: depends on STP convention (see constants). For many stoichiometric gas problems, using PV = nRT directly avoids ambiguity."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "id": "thermodynamics",
+
+      "name": "Thermodynamics & Equilibrium",
+
+      "description": "Key thermodynamic relationships for reaction spontaneity, enthalpy, entropy, and equilibrium constants.",
+
+      "entries": [
+
+        {
+
+          "id": "enthalpy",
+
+          "title": "Enthalpy (ΔH) and Hess's law",
+
+          "summary": "Computing reaction enthalpies using formation enthalpies and Hess's law.",
+
+          "body": "Enthalpy change ΔH is the heat exchanged at constant pressure. Hess's law states that the enthalpy change for an overall reaction equals the sum of enthalpy changes for individual steps because enthalpy is a state function.\n\nCalculation using standard enthalpies of formation (ΔHf°):\nΔH°rxn = Σ ΔHf°(products) − Σ ΔHf°(reactants)\n\nExample: Use tabulated ΔHf° values to compute ΔH° for combustion reactions. Remember to maintain correct stoichiometric coefficients.\n\nPractical point: Hess's law is useful to compute inaccessible enthalpy changes by constructing reaction pathways from known data."
+
+        },
+
+        {
+
+          "id": "entropy",
+
+          "title": "Entropy (ΔS) and disorder",
+
+          "summary": "Entropy trends and sign interpretation in reactions.",
+
+          "body": "Entropy (S) is a measure of the number of accessible microstates (disorder). Reactions that increase the number of gas molecules or increase molecular complexity often have positive ΔS.\n\nExamples:\n• Decomposition of a solid to gases: ΔS > 0.\n• Ordering processes (crystallization): ΔS < 0.\n\nRemember: a positive ΔS alone does not guarantee spontaneity — use ΔG = ΔH − TΔS to judge spontaneity at a given temperature."
+
+        },
+
+        {
+
+          "id": "gibbs",
+
+          "title": "Gibbs free energy (ΔG) and spontaneity",
+
+          "summary": "Relationship of ΔG to equilibrium and temperature dependence.",
+
+          "body": "Gibbs free energy ΔG = ΔH − TΔS determines spontaneity at constant pressure and temperature:\n• ΔG < 0: spontaneous\n• ΔG = 0: system at equilibrium\n• ΔG > 0: non-spontaneous as written\n\nRelation to equilibrium constant K:\nΔG° = −RT ln K (standard conditions). Therefore, large negative ΔG° corresponds to large K (products favored) and vice versa.\n\nTemperature effects: For reactions with ΔH and ΔS of opposite signs, temperature can switch spontaneity (e.g., endothermic with large positive ΔS becomes spontaneous at high T)."
+
+        },
+
+        {
+
+          "id": "equilibrium_constant",
+
+          "title": "Equilibrium constants (Kc, Kp) and reaction quotient (Q)",
+
+          "summary": "Definitions and how to use Q vs K to predict reaction direction.",
+
+          "body": "For a reaction aA + bB ⇌ cC + dD:\n• Kc = [C]^c [D]^d / ([A]^a [B]^b) (concentrations)\n• Kp = (PC^c PD^d)/(PA^a PB^b) (partial pressures) and Kp = Kc(RT)^(Δn) where Δn = (c + d) − (a + b).\n\nIf Q (reaction quotient computed with current concentrations/pressures) is:\n• Q < K: reaction proceeds forward (toward products)\n• Q = K: system at equilibrium\n• Q > K: reaction proceeds backward (toward reactants)\n\nSolve equilibrium problems by writing the equilibrium expression, substituting initial concentrations and change variables (ICE table), and solving for unknowns."
+
+        },
+
+        {
+
+          "id": "le_chatelier",
+
+          "title": "Le Chatelier's principle",
+
+          "summary": "Predicting how equilibria shift when conditions change (concentration, pressure, temperature).",
+
+          "body": "Le Chatelier's principle: a system at equilibrium will shift to counteract an applied change.\n\nTypical perturbations:\n• Changing concentration: adding more reactant shifts equilibrium toward products.\n• Changing pressure/volume: for gas-phase equilibria, increasing pressure favors the side with fewer moles of gas.\n• Changing temperature: for exothermic reactions (ΔH < 0), increasing T shifts equilibrium toward reactants; for endothermic reactions (ΔH > 0), increasing T shifts toward products. Temperature changes change K, unlike concentration or pressure changes.\n\nApplication: useful for optimizing yields in chemical manufacturing (e.g., Haber process uses pressure and temperature trade-offs)."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "id": "analysis_tips",
+
+      "name": "Practical Analysis & Lab Tips",
+
+      "description": "Concise, actionable laboratory calculation tricks and best practices for preparation and analysis.",
+
+      "entries": [
+
+        {
+
+          "id": "dilution_formula",
+
+          "title": "Dilution formula (C1V1 = C2V2)",
+
+          "summary": "How to dilute stock solutions reliably and examples.",
+
+          "body": "Use C1V1 = C2V2 to calculate volumes for dilution where C1 and V1 are concentration and volume of stock solution and C2 and V2 are desired concentration and final volume.\n\nExample: Prepare 100 mL of 0.1 M NaCl from 1.0 M stock: V1 = (C2V2)/C1 = (0.1 × 0.100 L)/1.0 = 0.010 L = 10 mL stock; add water to 100 mL.\n\nLab tip: Use calibrated volumetric glassware for precision and account for temperature when high accuracy is required."
+
+        },
+
+        {
+
+          "id": "standard_solution_prep",
+
+          "title": "Preparing a primary standard solution",
+
+          "summary": "How to prepare a known concentration standard from a primary standard solid.",
+
+          "body": "Procedure:\n1. Accurately weigh a known mass of a pure primary standard (e.g., KHP for acid standardization).\n2. Dissolve in a volumetric flask and dilute to the mark with solvent (usually water).\n3. Calculate molarity: moles = mass / molar mass; M = moles / volume (L).\n\nNotes: Primary standards should be pure, stable, and have high molar mass to minimize weighing error. Use analytical balance and transfer quantitatively."
+
+        },
+
+        {
+
+          "id": "ph_calculation_weak_acid",
+
+          "title": "pH approximation for weak acids",
+
+          "summary": "Approximate pH formula using Ka when acid is weak and concentration is moderate.",
+
+          "body": "For HA ⇌ H+ + A− with initial concentration C and acid dissociation constant Ka, if x (extent of dissociation) is small relative to C, approximate:\nKa ≈ x^2 / C → x ≈ sqrt(Ka·C) → [H+] ≈ x → pH ≈ −log10(x).\n\nIf x/C > ~0.05, solve the quadratic exactly: Ka = x^2/(C − x).\n\nHalf-equivalence: in titration, at half-neutralization, pH = pKa."
+
+        },
+
+        {
+
+          "id": "indicator_selection",
+
+          "title": "Selecting an indicator for titrations",
+
+          "summary": "Choose an indicator whose transition range overlaps the titration's equivalence-point pH.",
+
+          "body": "Indicator selection steps:\n1. Estimate equivalence-point pH based on strengths of acid/base.\n2. Choose indicator with color change range that includes the equivalence pH.\n\nExamples:\n• Strong acid vs strong base: equivalence near pH 7 — phenolphthalein (8.2–10.0) or bromothymol blue (6.0–7.6) may be used depending on endpoint sharpness.\n• Weak acid vs strong base: equivalence pH > 7 (use phenolphthalein).\n• Strong acid vs weak base: equivalence pH < 7 (use methyl orange).\n\nDigital pH meters and conductometry can provide more precise endpoints for critical work."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}

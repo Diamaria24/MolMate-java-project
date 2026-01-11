@@ -1,0 +1,382 @@
+{
+  "reactions": [
+    {
+      "name": "Methane Combustion",
+      "equation": "CH4 + O2 -> CO2 + H2O",
+      "type": "Combustion",
+      "description": "The complete combustion of methane, a primary component of natural gas."
+    },
+    {
+      "name": "Ethane Combustion",
+      "equation": "C2H6 + O2 -> CO2 + H2O",
+      "type": "Combustion",
+      "description": "The complete combustion of ethane."
+    },
+    {
+      "name": "Propane Combustion",
+      "equation": "C3H8 + O2 -> CO2 + H2O",
+      "type": "Combustion",
+      "description": "The burning of propane, used in gas grills and home heating."
+    },
+    {
+      "name": "Butane Combustion",
+      "equation": "C4H10 + O2 -> CO2 + H2O",
+      "type": "Combustion",
+      "description": "The combustion of butane, commonly found in lighters."
+    },
+    {
+      "name": "Pentane Combustion",
+      "equation": "C5H12 + O2 -> CO2 + H2O",
+      "type": "Combustion",
+      "description": "The complete combustion of pentane."
+    },
+    {
+      "name": "Hexane Combustion",
+      "equation": "C6H14 + O2 -> CO2 + H2O",
+      "type": "Combustion",
+      "description": "The complete combustion of hexane, a component of gasoline."
+    },
+    {
+      "name": "Octane Combustion",
+      "equation": "C8H18 + O2 -> CO2 + H2O",
+      "type": "Combustion",
+      "description": "The combustion of octane, a major component of gasoline."
+    },
+    {
+      "name": "Methanol Combustion",
+      "equation": "CH3OH + O2 -> CO2 + H2O",
+      "type": "Combustion",
+      "description": "The combustion of methanol, a simple alcohol fuel."
+    },
+    {
+      "name": "Ethanol Combustion",
+      "equation": "C2H5OH + O2 -> CO2 + H2O",
+      "type": "Combustion",
+      "description": "The burning of ethanol, an alcohol fuel."
+    },
+    {
+      "name": "Propanol Combustion",
+      "equation": "C3H7OH + O2 -> CO2 + H2O",
+      "type": "Combustion",
+      "description": "The combustion of propanol."
+    },
+    {
+      "name": "Glucose Combustion (Respiration)",
+      "equation": "C6H12O6 + O2 -> CO2 + H2O",
+      "type": "Combustion",
+      "description": "The overall process of cellular respiration, releasing energy from glucose."
+    },
+    {
+      "name": "Acetylene Combustion",
+      "equation": "C2H2 + O2 -> CO2 + H2O",
+      "type": "Combustion",
+      "description": "The combustion of acetylene, used in high-temperature welding torches."
+    },
+    {
+      "name": "Water Synthesis",
+      "equation": "H2 + O2 -> H2O",
+      "type": "Synthesis",
+      "description": "The formation of water from hydrogen and oxygen gas."
+    },
+    {
+      "name": "Table Salt Formation",
+      "equation": "Na + Cl2 -> NaCl",
+      "type": "Synthesis",
+      "description": "The reaction of sodium metal and chlorine gas to form sodium chloride."
+    },
+    {
+      "name": "Iron(III) Oxide Formation (Rust)",
+      "equation": "Fe + O2 -> Fe2O3",
+      "type": "Synthesis",
+      "description": "The oxidation of iron to form iron(III) oxide, commonly known as rust."
+    },
+    {
+      "name": "Haber-Bosch Process",
+      "equation": "N2 + H2 -> NH3",
+      "type": "Synthesis",
+      "description": "An industrial process for producing ammonia from nitrogen and hydrogen gas."
+    },
+    {
+      "name": "Sulfur Dioxide Formation",
+      "equation": "S8 + O2 -> SO2",
+      "type": "Synthesis",
+      "description": "The burning of sulfur in oxygen to produce sulfur dioxide."
+    },
+    {
+      "name": "Magnesium Oxide Formation",
+      "equation": "Mg + O2 -> MgO",
+      "type": "Synthesis",
+      "description": "The combustion of magnesium metal to form a bright white solid."
+    },
+    {
+      "name": "Slaked Lime Formation",
+      "equation": "CaO + H2O -> Ca(OH)2",
+      "type": "Synthesis",
+      "description": "The reaction of calcium oxide (quicklime) with water to form calcium hydroxide."
+    },
+    {
+      "name": "Aluminum Chloride Synthesis",
+      "equation": "Al + Cl2 -> AlCl3",
+      "type": "Synthesis",
+      "description": "The reaction of aluminum metal with chlorine gas."
+    },
+    {
+      "name": "Lithium Nitride Synthesis",
+      "equation": "Li + N2 -> Li3N",
+      "type": "Synthesis",
+      "description": "The reaction of lithium metal with nitrogen gas."
+    },
+    {
+      "name": "Phosphorus Trichloride Synthesis",
+      "equation": "P4 + Cl2 -> PCl3",
+      "type": "Synthesis",
+      "description": "The reaction of white phosphorus with chlorine gas."
+    },
+    {
+      "name": "Sulfur Trioxide Formation",
+      "equation": "SO2 + O2 -> SO3",
+      "type": "Synthesis",
+      "description": "The key step in the Contact process for making sulfuric acid."
+    },
+    {
+      "name": "Ammonia and HCl Reaction",
+      "equation": "NH3 + HCl -> NH4Cl",
+      "type": "Synthesis",
+      "description": "The reaction of ammonia gas and hydrogen chloride gas to form solid ammonium chloride."
+    },
+    {
+      "name": "Potassium Oxide Synthesis",
+      "equation": "K + O2 -> K2O",
+      "type": "Synthesis",
+      "description": "The formation of potassium oxide from potassium metal and oxygen."
+    },
+    {
+      "name": "Iron(II) Sulfide Synthesis",
+      "equation": "Fe + S8 -> FeS",
+      "type": "Synthesis",
+      "description": "The direct combination of iron and sulfur upon heating."
+    },
+    {
+      "name": "Water Electrolysis",
+      "equation": "H2O -> H2 + O2",
+      "type": "Decomposition",
+      "description": "Decomposition of water into oxygen and hydrogen gas via an electric current."
+    },
+    {
+      "name": "Hydrogen Peroxide Decomposition",
+      "equation": "H2O2 -> H2O + O2",
+      "type": "Decomposition",
+      "description": "The breakdown of hydrogen peroxide into water and oxygen, often catalyzed."
+    },
+    {
+      "name": "Limestone Decomposition",
+      "equation": "CaCO3 -> CaO + CO2",
+      "type": "Decomposition",
+      "description": "The thermal decomposition of calcium carbonate into calcium oxide and carbon dioxide."
+    },
+    {
+      "name": "Potassium Chlorate Decomposition",
+      "equation": "KClO3 -> KCl + O2",
+      "type": "Decomposition",
+      "description": "A common lab method for producing oxygen gas by heating potassium chlorate."
+    },
+    {
+      "name": "Mercury(II) Oxide Decomposition",
+      "equation": "HgO -> Hg + O2",
+      "type": "Decomposition",
+      "description": "The breakdown of mercury(II) oxide into liquid mercury and oxygen gas upon heating."
+    },
+    {
+      "name": "Carbonic Acid Decomposition",
+      "equation": "H2CO3 -> H2O + CO2",
+      "type": "Decomposition",
+      "description": "The unstable carbonic acid decomposing into water and carbon dioxide."
+    },
+    {
+      "name": "Baking Soda Decomposition",
+      "equation": "NaHCO3 -> Na2CO3 + H2O + CO2",
+      "type": "Decomposition",
+      "description": "The thermal decomposition of sodium bicarbonate (baking soda)."
+    },
+    {
+      "name": "Ammonium Dichromate Volcano",
+      "equation": "(NH4)2Cr2O7 -> Cr2O3 + N2 + H2O",
+      "type": "Decomposition",
+      "description": "A dramatic decomposition reaction that produces chromium(III) oxide 'ash'."
+    },
+    {
+      "name": "Nitrogen Triiodide Decomposition",
+      "equation": "NI3 -> N2 + I2",
+      "type": "Decomposition",
+      "description": "The highly sensitive explosive decomposition of nitrogen triiodide."
+    },
+    {
+      "name": "Copper(II) Hydroxide Decomposition",
+      "equation": "Cu(OH)2 -> CuO + H2O",
+      "type": "Decomposition",
+      "description": "The decomposition of copper(II) hydroxide by heating."
+    },
+    {
+      "name": "Nitroglycerin Decomposition",
+      "equation": "C3H5N3O9 -> CO2 + H2O + N2 + O2",
+      "type": "Decomposition",
+      "description": "The explosive decomposition of nitroglycerin."
+    },
+    {
+      "name": "Potassium Nitrate Decomposition",
+      "equation": "KNO3 -> KNO2 + O2",
+      "type": "Decomposition",
+      "description": "The thermal decomposition of potassium nitrate."
+    },
+    {
+      "name": "Zinc in Hydrochloric Acid",
+      "equation": "Zn + HCl -> ZnCl2 + H2",
+      "type": "Single Displacement",
+      "description": "Zinc metal reacting with hydrochloric acid to produce hydrogen gas."
+    },
+    {
+      "name": "Iron in Copper(II) Sulfate",
+      "equation": "Fe + CuSO4 -> FeSO4 + Cu",
+      "type": "Single Displacement",
+      "description": "An iron nail placed in a copper(II) sulfate solution will be coated with copper."
+    },
+    {
+      "name": "Chlorine displaces Bromine",
+      "equation": "Cl2 + KBr -> KCl + Br2",
+      "type": "Single Displacement",
+      "description": "Chlorine gas bubbling through a potassium bromide solution."
+    },
+    {
+      "name": "Sodium in Water",
+      "equation": "Na + H2O -> NaOH + H2",
+      "type": "Single Displacement",
+      "description": "The highly exothermic reaction of sodium metal in water."
+    },
+    {
+      "name": "Thermite Reaction",
+      "equation": "Fe2O3 + Al -> Al2O3 + Fe",
+      "type": "Single Displacement",
+      "description": "A highly exothermic reaction between iron(III) oxide and aluminum."
+    },
+    {
+      "name": "Copper in Silver Nitrate",
+      "equation": "Cu + AgNO3 -> Cu(NO3)2 + Ag",
+      "type": "Single Displacement",
+      "description": "A copper wire placed in silver nitrate solution forms silver crystals."
+    },
+    {
+      "name": "Magnesium in Sulfuric Acid",
+      "equation": "Mg + H2SO4 -> MgSO4 + H2",
+      "type": "Single Displacement",
+      "description": "Magnesium reacting with sulfuric acid."
+    },
+    {
+      "name": "Fluorine displaces Chlorine",
+      "equation": "F2 + NaCl -> NaF + Cl2",
+      "type": "Single Displacement",
+      "description": "The most reactive halogen, fluorine, displaces chlorine."
+    },
+    {
+      "name": "Aluminum in Copper(II) Chloride",
+      "equation": "Al + CuCl2 -> AlCl3 + Cu",
+      "type": "Single Displacement",
+      "description": "Aluminum foil reacting with a copper(II) chloride solution."
+    },
+    {
+      "name": "Potassium in Water",
+      "equation": "K + H2O -> KOH + H2",
+      "type": "Single Displacement",
+      "description": "The violent reaction of potassium metal with water, often igniting the hydrogen produced."
+    },
+    {
+      "name": "Silver Halide Precipitation",
+      "equation": "AgNO3 + NaCl -> AgCl + NaNO3",
+      "type": "Double Displacement",
+      "description": "A classic precipitation reaction forming solid silver chloride."
+    },
+    {
+      "name": "Lead Iodide Precipitation",
+      "equation": "Pb(NO3)2 + KI -> PbI2 + KNO3",
+      "type": "Double Displacement",
+      "description": "Formation of a bright yellow precipitate of lead(II) iodide."
+    },
+    {
+      "name": "Acid-Base Neutralization",
+      "equation": "HCl + NaOH -> NaCl + H2O",
+      "type": "Double Displacement",
+      "description": "The reaction of a strong acid and a strong base to form salt and water."
+    },
+    {
+      "name": "Sulfuric Acid Neutralization",
+      "equation": "H2SO4 + KOH -> K2SO4 + H2O",
+      "type": "Double Displacement",
+      "description": "The neutralization of sulfuric acid with potassium hydroxide."
+    },
+    {
+      "name": "Barium Sulfate Precipitation",
+      "equation": "BaCl2 + Na2SO4 -> BaSO4 + NaCl",
+      "type": "Double Displacement",
+      "description": "Formation of a dense white precipitate of barium sulfate."
+    },
+    {
+      "name": "Iron(III) Hydroxide Precipitation",
+      "equation": "FeCl3 + NaOH -> Fe(OH)3 + NaCl",
+      "type": "Double Displacement",
+      "description": "Formation of a reddish-brown precipitate of iron(III) hydroxide."
+    },
+    {
+      "name": "Baking Soda and Vinegar",
+      "equation": "NaHCO3 + HC2H3O2 -> NaC2H3O2 + H2O + CO2",
+      "type": "Double Displacement (Gas Evolution)",
+      "description": "A classic acid-base reaction that produces carbon dioxide gas."
+    },
+    {
+      "name": "Calcium Carbonate with Acid",
+      "equation": "CaCO3 + HCl -> CaCl2 + H2O + CO2",
+      "type": "Double Displacement (Gas Evolution)",
+      "description": "The reaction of an acid with a carbonate, producing a salt, water, and carbon dioxide."
+    },
+    {
+      "name": "Copper(II) Sulfate and Sodium Hydroxide",
+      "equation": "CuSO4 + NaOH -> Cu(OH)2 + Na2SO4",
+      "type": "Double Displacement",
+      "description": "Formation of a blue precipitate of copper(II) hydroxide."
+    },
+    {
+      "name": "Phosphoric Acid Neutralization",
+      "equation": "H3PO4 + Ca(OH)2 -> Ca3(PO4)2 + H2O",
+      "type": "Double Displacement",
+      "description": "The neutralization of phosphoric acid with calcium hydroxide."
+    },
+    {
+      "name": "Photosynthesis",
+      "equation": "CO2 + H2O -> C6H12O6 + O2",
+      "type": "Complex Reaction",
+      "description": "The process used by plants to convert light energy into chemical energy."
+    },
+    {
+      "name": "Saponification (Soap Making)",
+      "equation": "C3H5(C18H35O2)3 + NaOH -> C3H5(OH)3 + NaC18H35O2",
+      "type": "Double Displacement",
+      "description": "A simplified representation of soap making, reacting fat (triglyceride) with lye."
+    },
+    {
+      "name": "Permanganate with HCl",
+      "equation": "KMnO4 + HCl -> KCl + MnCl2 + H2O + Cl2",
+      "type": "Complex Reaction",
+      "description": "A redox reaction between potassium permanganate and hydrochloric acid."
+    },
+    {
+      "name": "Dichromate Redox Reaction",
+      "equation": "K2Cr2O7 + H2SO4 + H2S -> K2SO4 + Cr2(SO4)3 + H2O + S",
+      "type": "Complex Reaction",
+      "description": "A redox reaction involving potassium dichromate as a strong oxidizing agent."
+    },
+    {
+      "name": "Water Gas Shift Reaction",
+      "equation": "CO + H2O -> CO2 + H2",
+      "type": "Complex Reaction",
+      "description": "An industrial reaction used to produce hydrogen gas from carbon monoxide and water."
+    }
+  ]
+}
